@@ -26,7 +26,6 @@ ul{
     padding: 0;
     margin-top: 0;
     margin-bottom: 0;
-    
 }
 a{
     text-decoration: none;
@@ -39,11 +38,9 @@ img{
 }
 .container {
     width: 100%;
-    max-width: 1128px;
+    max-width: 1158px;
     margin: 0 auto;
-    
-    justify-content: center;
-    
+    padding: 0 15px;
 }
 
 /*Header*/
@@ -55,7 +52,6 @@ border-bottom: 1px solid var(--color-secondary-light);
 padding-top: 24px;
 padding-bottom: 24px;
 }
-
 .nav{
     display: flex;
     align-items: center;
@@ -73,7 +69,6 @@ padding-bottom: 24px;
     color: var(--color-primary);
     letter-spacing: 0.03em;
     margin-right: 76px;
-    max-width: 71px ;
 }
 .logo-web{
     color: var(--color-brand);
@@ -87,8 +82,6 @@ gap: 40px;
     display: flex;
     gap: 40px;
 }
-
-
 .nav-links .nav-link.current{
     color: var(--color-pressed-state);
 }
@@ -98,7 +91,6 @@ gap: 40px;
     font-weight: 500;
     accent-color: var(--color-pressed-state);
     max-width: 66px;
-   
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -110,8 +102,6 @@ gap: 40px;
     letter-spacing: 0.02em;
     font-style: normal;
     max-width: 152px;
-    
-
 }
 .address:hover,
 .address:focus{
@@ -120,12 +110,7 @@ gap: 40px;
 
 /*Hero*/
 .hero-container{
-   
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-    align-items: center;
-    padding:188px ;
+    padding: 188px 0 ;
  }
 .hero{
     background-color: var(--background-color-hero);
@@ -135,11 +120,11 @@ gap: 40px;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    margin-bottom: 48px;
+    margin: 0 auto;
     max-width: 496px;
     text-align: center;
-       
-    }
+    margin-bottom: 64px;
+}
 
 .hero-button{
     font-family: Roboto, sans-serif;
@@ -150,56 +135,45 @@ gap: 40px;
     background-color: var(--color-brand);
     cursor: pointer;
     letter-spacing: 0.04em;
-    max-width: 169px;
     padding:  16px 32px;
     max-width: 196px;
-    border: 0;
+    border: none;
     border-radius: 4px;
-    
-
-
+    margin: 0 auto;
+    display: block;
 }
 .hero-button:hover,
 .hero-button:focus {
     background-color: var(--color-pressed-state);
 }
 
-
 /*About*/
 .about-conteiner{
     padding-top: 120px;
     padding-bottom: 120px;
-   
 }
-
 .about-list{
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
-    
 }
 .about-title-main{
     display: none;
 }
 .about-elements{
     flex-basis: calc((100% - 72px) / 4);
-    
 }
 .about-title{
     font-size: 20px;
     line-height: 1.2;
     font-weight: 500;
     letter-spacing: 0.02em;
-    margin-bottom: 8px;
-    
-
+    margin-bottom: 8px;    
 }
-
 .about-text{
     color: var(--color-secondary);
     letter-spacing: 0.02em;
     max-width: 264px;
-    
 }
 
 /*What are we doing*/
@@ -225,12 +199,11 @@ gap: 40px;
 }
 /*Team*/
 .team-container{
-        justify-content: center;
-        
+    justify-content: center;
 }
 .team{
     background-color: var(--background-color-gray);
-       }
+}
 .team-member{
     background-color: var(--background-color-white);
     flex-basis: calc((100% - 72px) / 4);
@@ -242,7 +215,6 @@ gap: 40px;
     text-transform: capitalize;
     text-align: center;
     margin-bottom: 72px;
-
 }
 .team-title{
     font-size: 20px;
@@ -251,22 +223,26 @@ gap: 40px;
     text-transform: capitalize;
     font-weight: 500;
     text-align: center;
+    margin-bottom: 8px;
 }
 .team-text{
     letter-spacing: 0.02em; 
     text-align: center;
+    margin-bottom: 0;
     }
     .team-container{
-        display: flex;
-        gap: 24px;
-        flex-wrap: wrap;
-    }
-
-    .teams-container{
-            padding-bottom: 120px;
-            padding-top: 120px;
-    }
-
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.teams-container{
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+.team-info{
+   padding-top: 32px;
+   padding-bottom: 32px;
+}
 /*Footer*/
 .footer{
     padding-top: 100px;
@@ -275,7 +251,6 @@ gap: 40px;
     }
 .logo-studio{
     color: var(--color-primari-light);
-    
 }
 .footer-text{
     color: var(--color-secondary-light);
@@ -287,7 +262,7 @@ gap: 40px;
 
 /*Filter*/
 .portfolio-container{
-    padding-top: 108px;
+    padding-top: 96px;
     padding-bottom: 120px;
 }
 
