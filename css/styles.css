@@ -31,7 +31,7 @@ a{
     text-decoration: none;
 }
 p, h1, h2, h3, h4, h5, h6{
-    margin-top: 0;
+    margin: 0;
 }
 img{
     display: block;
@@ -49,8 +49,7 @@ img{
 display: flex;
 align-items: center;
 border-bottom: 1px solid var(--color-secondary-light);
-padding-top: 24px;
-padding-bottom: 24px;
+
 }
 .nav{
     display: flex;
@@ -77,6 +76,7 @@ padding-bottom: 24px;
 .nav-links{
 display: flex;
 gap: 40px;
+padding: 24px 0;
 }
 .adresses{
     display: flex;
@@ -91,6 +91,7 @@ gap: 40px;
     font-weight: 500;
     accent-color: var(--color-pressed-state);
     max-width: 66px;
+    
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -242,6 +243,8 @@ gap: 40px;
 .team-info{
    padding-top: 32px;
    padding-bottom: 32px;
+   box-shadow: 0px 1px 6px rgb(46 47 66 / 8%), 0px 1px 1px rgb(46 47 66 / 16%), 0px 2px 1px rgb(46 47 66 / 8%);
+   border-radius: 0px 0px 4px 4px;
 }
 /*Footer*/
 .footer{
